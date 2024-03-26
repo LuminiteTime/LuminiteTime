@@ -3,7 +3,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1200&color=20F7E1&vCenter=true&multiline=true&random=false&width=660&height=150&lines=A+coffee-obsessed+Java+Backend-Developer+from+Russia;Computer+science+Innopolis+University+student" alt="Typing SVG" /></a>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=luminitetime&label=Profile%20views&color=0e75b6&style=flat" alt="luminitetime" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=luminitetime&label=Profile%20views&color=blueviolet&style=flat" alt="luminitetime" /> </p>
 
 - 🔭 I’m currently working on [Tournament Microservice](https://github.com/LuminiteTime/Tournament-Microservice.git)
 
