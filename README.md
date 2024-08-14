@@ -40,11 +40,11 @@ public class BackendDeveloper {
                         "Maven", "Gradle"
                 ),
             "backend", List.of(
-                    "Spring Boot", "Hibernate", "Swagger", "Lombok", "PostgreSQL",
+                    "Spring Boot", "Hibernate", "Swagger", "Lombok", "jdbc", "PostgreSQL",
                         "MongoDB", "GraphQL", "Jakarta", "Slf4j", "JJWT", "JUnit", "Testcontainers"
                 ),
-                "frontend", List.of(
-                        "React", "HTML", "CSS", "Javascript"
+            "frontend", List.of(
+                    "React", "HTML", "CSS", "Javascript"
                 ),
             "misc", List.of(
                     "Git", "SQL", "Docker", "LaTex", "Postman"
