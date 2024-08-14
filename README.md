@@ -1,22 +1,92 @@
-<h1 align="center">𝙷𝚒 𝚝𝚑𝚎𝚛𝚎, 𝙸'𝚖 <a href="https://github.com/LuminiteTime" target="_blank"> 𝙼𝚒𝚔𝚑𝚊𝚒𝚕</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+# Hello there👋
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1200&color=20F7E1&vCenter=true&multiline=true&random=false&width=660&height=150&lines=A+coffee-obsessed+Java+Backend-Developer;Computer+science+Innopolis+University+student" alt="Typing SVG" /></a>
+```java
+// About me
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=luminitetime&label=Profile%20views&color=blueviolet&style=flat" alt="luminitetime" /> </p>
+import java.util.List;
+import java.util.Map;
 
-- 🔭 I’m currently working on [Tournament Microservice](https://github.com/LuminiteTime/Tournament-Microservice.git)
+public class BackendDeveloper {
+    private String name;
+    private String city;
 
-- 🌱 I’m currently learning **Java Spring Boot, Swagger, Hibernate**
+    private String role;
 
-- 💬 Ask me about **microservices, documentation, validation**
+    private List<Map<String, String>> spoken_languages;
 
-- 📫 How to reach me **trifonov2812@gmail.com**
+    private Map<String, List<String>> stack;
 
-<h3 align="left">My coding exercises progress:</h3>
-<p align="left">
-<a href="https://www.leetcode.com/luminitetime" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="luminitetime" height="30" width="40" /></a>
-</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
+    public BackendDeveloper() {
+        this.name = "Mikhail Trifonov";
+        this.city = "Innopolis";
+
+        this.role = "Java Backend Developer";
+
+        this.spoken_languages = List.of(
+                Map.of(
+                        "language", "Russian",
+                        "level", "Native"
+                ),
+                Map.of(
+                        "language", "English",
+                        "level", "Upper-Intermediate"
+                )
+        );
+
+        this.stack = Map.of(
+            "core", List.of(
+                    "OOP", "Collections", "Stream API", "Generics", "Algorithms",
+                        "Maven", "Gradle"
+                ),
+            "backend", List.of(
+                    "Spring Boot", "Hibernate", "Swagger", "Lombok", "PostgreSQL",
+                        "MongoDB", "GraphQL", "Jakarta", "Slf4j", "JJWT", "JUnit", "Testcontainers"
+                ),
+                "frontend", List.of(
+                        "React", "HTML", "CSS", "Javascript"
+                ),
+            "misc", List.of(
+                    "Git", "SQL", "Docker", "LaTex", "Postman"
+                )
+        );
+    }
+
+    public void say_hi() {
+        System.out.println("Hello! My name is " + this.name + " and I am a " + this.role + ".\n" +
+        "Currently I live in " + this.city + ".\n" +
+        "You can see my projects and my code style here.");
+    }
+
+    public static void main(String[] args) {
+        BackendDeveloper me = new BackendDeveloper();
+        me.say_hi();
+    }
+}
+
+```
+
+## 📝 Links
+* Telegram: https://t.me/LuminiteTime
+* Innopolis GitLab: https://gitlab.pg.innopolis.university/users/m.trifonov/projects
+
+## 🔧 Technologies & Tools
+
+### Languages:
+![](https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=oracle&logoColor=F80000)
+![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Frameworks:
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/Spring-323436?style=for-the-badge&logo=spring&logoColor=6DB33F)
+
+### Tools:
+![](https://img.shields.io/badge/docker-369cee?style=for-the-badge&logo=docker&logoColor=white)
+![](https://img.shields.io/badge/Postman-1f2021?style=for-the-badge&logo=postman&logoColor=FF6C37)
+![](https://img.shields.io/badge/LaTeX-1f425f?style=for-the-badge&logo=latex)
+![](https://img.shields.io/badge/Git-5f6870?style=for-the-badge&logo=git&logoColor=F05032)
+![](https://img.shields.io/badge/PostgreSQL-3b3e40?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![](https://img.shields.io/badge/MongoDB-1f2021?style=for-the-badge&logo=mongodb&logoColor=47A248)
