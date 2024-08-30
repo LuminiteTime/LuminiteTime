@@ -35,6 +35,9 @@ public class BackendDeveloper {
         );
 
         this.stack = Map.of(
+            "mainLanguages", List.of(
+                    "Java", "Python", "Scala"
+                ),
             "core", List.of(
                     "OOP", "Collections", "Stream API", "Generics", "Algorithms",
                         "Maven", "Gradle"
@@ -44,7 +47,7 @@ public class BackendDeveloper {
                         "MongoDB", "GraphQL", "Jakarta", "Slf4j", "JJWT", "JUnit", "Testcontainers"
                 ),
             "frontend", List.of(
-                    "React", "HTML", "CSS", "Javascript"
+                    "React", "HTML", "CSS", "Javascript", "Flutter", "Dart"
                 ),
             "misc", List.of(
                     "Git", "SQL", "Docker", "LaTex", "Postman"
@@ -75,13 +78,16 @@ public class BackendDeveloper {
 ### Languages:
 ![](https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=oracle&logoColor=F80000)
 ![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/Scala-20232A?style=for-the-badge&logo=scala&logoColor=F80000)
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/Dart-323330?style=for-the-badge&logo=dart&logoColor=white)
 
 ### Frameworks:
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![](https://img.shields.io/badge/Spring-323436?style=for-the-badge&logo=spring&logoColor=6DB33F)
+![](https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter&logoColor=369cee)
 
 ### Tools:
 ![](https://img.shields.io/badge/docker-369cee?style=for-the-badge&logo=docker&logoColor=white)
