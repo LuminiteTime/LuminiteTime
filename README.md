@@ -12,7 +12,7 @@ public class BackendDeveloper {
 
     private String role;
 
-    private List<Map<String, String>> spoken_languages;
+    private List<Map<String, String>> spokenLanguages;
 
     private Map<String, List<String>> stack;
 
@@ -55,7 +55,7 @@ public class BackendDeveloper {
         );
     }
 
-    public void say_hi() {
+    public void sayHi() {
         System.out.println("Hello! My name is " + this.name + " and I am a " + this.role + ".\n" +
         "Currently I live in " + this.city + ".\n" +
         "You can see my projects and my code style here.");
@@ -63,7 +63,7 @@ public class BackendDeveloper {
 
     public static void main(String[] args) {
         BackendDeveloper me = new BackendDeveloper();
-        me.say_hi();
+        me.sayHi();
     }
 }
 
