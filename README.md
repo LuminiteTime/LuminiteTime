@@ -70,6 +70,7 @@ public class BackendDeveloper {
 ```
 
 ## 📝 Links
+* Portfolio: https://luminitetime.github.io/portfolio/
 * Telegram: https://t.me/LuminiteTime
 * Innopolis GitLab: https://gitlab.pg.innopolis.university/users/m.trifonov/projects
 
