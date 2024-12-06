@@ -21,7 +21,7 @@ public class BackendDeveloper {
         this.name = "Mikhail Trifonov";
         this.city = "Innopolis";
 
-        this.role = "Java Backend Developer";
+        this.role = "Java & Scala Backend Developer";
 
         this.spoken_languages = List.of(
                 Map.of(
@@ -36,7 +36,7 @@ public class BackendDeveloper {
 
         this.stack = Map.of(
             "mainLanguages", List.of(
-                    "Java", "Python", "Scala"
+                    "Java", "Scala", "Python"
                 ),
             "core", List.of(
                     "OOP", "Collections", "Stream API", "Generics", "Algorithms",
@@ -44,7 +44,8 @@ public class BackendDeveloper {
                 ),
             "backend", List.of(
                     "Spring Boot", "Hibernate", "Swagger", "Lombok", "jdbc", "PostgreSQL",
-                        "MongoDB", "GraphQL", "Jakarta", "Slf4j", "JJWT", "JUnit", "Testcontainers"
+                        "MongoDB", "GraphQL", "Jakarta", "Slf4j", "JJWT", "JUnit", "Testcontainers",
+                        "ZIO", "Doobie"
                 ),
             "frontend", List.of(
                     "React", "HTML", "CSS", "Javascript", "Flutter", "Dart"
@@ -56,7 +57,7 @@ public class BackendDeveloper {
     }
 
     public void sayHi() {
-        System.out.println("Hello! My name is " + this.name + " and I am a " + this.role + ".\n" +
+        System.out.println("Hi! My name is " + this.name + " and I am a " + this.role + ".\n" +
         "Currently I live in " + this.city + ".\n" +
         "You can see my projects and my code style here.");
     }
