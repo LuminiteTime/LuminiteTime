@@ -1,58 +1,32 @@
-# Glad to see you here!👋
+<div align="center">
+<h1>Немного обо мне •ᴗ• </h1>
+</div>
 
 ```java
 // About me
-
 import java.util.List;
 import java.util.Map;
 
 public class BackendDeveloper {
     private String name;
     private String city;
-
     private String role;
-
     private List<Map<String, String>> spokenLanguages;
-
     private Map<String, List<String>> stack;
-
 
     public BackendDeveloper() {
         this.name = "Mikhail Trifonov";
         this.city = "Innopolis";
-
         this.role = "Java & Scala Backend Developer";
-
-        this.spoken_languages = List.of(
-                Map.of(
-                        "language", "Russian",
-                        "level", "Native"
-                ),
-                Map.of(
-                        "language", "English",
-                        "level", "Upper-Intermediate"
-                )
+        this.spokenLanguages = List.of(
+                Map.of("language", "Russian", "level", "Native"),
+                Map.of("language", "English", "level", "Upper-Intermediate")
         );
-
         this.stack = Map.of(
-            "mainLanguages", List.of(
-                    "Java", "Scala", "Python"
-                ),
-            "core", List.of(
-                    "OOP", "Collections", "Stream API", "Generics", "Algorithms",
-                        "Maven", "Gradle"
-                ),
-            "backend", List.of(
-                    "Spring Boot", "Hibernate", "Swagger", "Lombok", "jdbc", "PostgreSQL",
-                        "MongoDB", "GraphQL", "Jakarta", "Slf4j", "JJWT", "JUnit", "Testcontainers",
-                        "ZIO", "Doobie"
-                ),
-            "frontend", List.of(
-                    "React", "HTML", "CSS", "Javascript", "Flutter", "Dart"
-                ),
-            "misc", List.of(
-                    "Git", "SQL", "Docker", "LaTex", "Postman"
-                )
+            "backend", List.of("Java", "Scala", "Spring Boot", "Hibernate", "gRPC", "GraphQL"),
+            "databases", List.of("PostgreSQL", "MongoDB", "Redis"),
+            "devops", List.of("Docker", "Kafka", "RabbitMQ", "Nginx", "Grafana", "Prometheus"),
+            "tools", List.of("Git", "Maven", "Gradle", "JUnit", "Testcontainers")
         );
     }
 
@@ -61,40 +35,54 @@ public class BackendDeveloper {
         "Currently I live in " + this.city + ".\n" +
         "You can see my projects and my code style here.");
     }
-
+    
     public static void main(String[] args) {
         BackendDeveloper me = new BackendDeveloper();
         me.sayHi();
     }
 }
-
 ```
 
-## 📝 Links
-* [About Me](https://luminitetime.github.io/portfolio)
-* [Telegram](https://t.me/LuminiteTime)
-* [Innopolis GitLab](https://gitlab.pg.innopolis.university/users/m.trifonov/projects)
 
-## 🔧 Technologies & Tools
+---
 
-### Languages:
-![](https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=oracle&logoColor=F80000)
-![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![](https://img.shields.io/badge/Scala-20232A?style=for-the-badge&logo=scala&logoColor=F80000)
-![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![](https://img.shields.io/badge/Dart-323330?style=for-the-badge&logo=dart&logoColor=white)
+<div align="center">
+<h3>Tech Stack</h3>
+<p>
+    <a href="#"><img src="https://skillicons.dev/icons?i=java,scala,spring,hibernate&perline=4" alt="languages"></a>
+</p>
+<p>
+    <a href="#"><img src="https://skillicons.dev/icons?i=gradle,maven,docker,git,kafka,rabbitmq&perline=9" alt="devops"></a>
+</p>
+<p>
+    <a href="#"><img src="https://skillicons.dev/icons?i=nginx,prometheus,grafana&perline=9" alt="devops"></a>
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=mysql" width="48" height="48" alt="SQL">
+    <img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="CI/CD">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" width="48" height="48" style="background: #25A162; border-radius: 4px; padding: 8px;" alt="JUnit">
+</p>
+<p>
+    <a href="#"><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&perline=3" alt="databases"></a>
+    <a href="#"><img src="https://skillicons.dev/icons?i=graphql&perline=1" alt="GraphQL"></a>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="48" height="48" style="background: #009688; border-radius: 4px; padding: 8px;" alt="REST API">
+    <img src="https://logo.svgcdn.com/l/grpc.svg" width="48" height="48" style="background: #244c5a; border-radius: 4px; padding: 8px;" alt="gRPC">
+</p>
+</div>
 
-### Frameworks:
-![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![](https://img.shields.io/badge/Spring-323436?style=for-the-badge&logo=spring&logoColor=6DB33F)
-![](https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter&logoColor=369cee)
+<div align="center">
+<h3>Процессы</h3>
+<p>
+    <code style="background: linear-gradient(135deg, #0052CC, #0066FF); color: white; padding: 8px 12px; border-radius: 6px; font-weight: bold;">🔄 Agile</code>
+    <code style="background: linear-gradient(135deg, #6DB33F, #8CC152); color: white; padding: 8px 12px; border-radius: 6px; font-weight: bold;">⚡ Scrum</code>
+    <code style="background: linear-gradient(135deg, #0079BF, #00A3E0); color: white; padding: 8px 12px; border-radius: 6px; font-weight: bold;">📋 Kanban</code>
+    <code style="background: linear-gradient(135deg, #F05032, #FF6B47); color: white; padding: 8px 12px; border-radius: 6px; font-weight: bold;">🔀 Git Workflow</code>
+    <code style="background: linear-gradient(135deg, #0052CC, #2684FF); color: white; padding: 8px 12px; border-radius: 6px; font-weight: bold;">📊 Jira</code>
+</p>
+</div>
 
-### Tools:
-![](https://img.shields.io/badge/docker-369cee?style=for-the-badge&logo=docker&logoColor=white)
-![](https://img.shields.io/badge/Postman-1f2021?style=for-the-badge&logo=postman&logoColor=FF6C37)
-![](https://img.shields.io/badge/LaTeX-1f425f?style=for-the-badge&logo=latex)
-![](https://img.shields.io/badge/Git-5f6870?style=for-the-badge&logo=git&logoColor=F05032)
-![](https://img.shields.io/badge/PostgreSQL-3b3e40?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![](https://img.shields.io/badge/MongoDB-1f2021?style=for-the-badge&logo=mongodb&logoColor=47A248)
+---
+
+<div align="center">
+<a href="https://t.me/LuminiteTime">
+    <img src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="Telegram" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); transition: transform 0.2s;">
+</a>
+</div>
