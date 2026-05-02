@@ -64,7 +64,7 @@
     </circle>
 
     <image
-      href="https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f"
+      href="./am-i-dreaming-cover.png"
       x="0"
       y="0"
       width="640"
@@ -78,7 +78,7 @@
   <g filter="url(#coverShadow)">
     <rect x="28" y="28" width="124" height="124" rx="18" fill="#111827" stroke="#30363D"/>
     <image
-      href="https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f"
+      href="./am-i-dreaming-cover.png"
       x="28"
       y="28"
       width="124"
