@@ -63,9 +63,6 @@ public class BackendDeveloper {
       <b>Core backend</b>
       <br><br>
       <img src="https://skillicons.dev/icons?i=java,scala,kotlin,spring,hibernate,graphql,fastapi&perline=4" alt="Java, Scala, Kotlin, Spring, Hibernate, GraphQL, FastAPI" />
-      <br>
-        	<img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/grpc.png" alt="gRPC" title="gRPC"/>
-      <br>
     </td>
     <td align="center" width="33%">
       <b>Systems & languages</b>
