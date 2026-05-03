@@ -6,8 +6,6 @@
   <sub>Java & Scala Backend Developer · Innopolis · building backend systems, APIs and developer tools</sub>
 </p>
 
-<div align="center">
-
 <a href="https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW">
   <img
     src="./assets/am-i-dreaming-player.svg"
